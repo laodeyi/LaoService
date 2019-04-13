@@ -36,7 +36,7 @@ public class CDKeyGenerator {
             BufferedReader reader = new BufferedReader(new FileReader(cdkeyCounterPath));
             counter = Integer.parseInt(reader.readLine());
             reader.close();
-        } catch (java.io.IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
         return counter;
