@@ -74,9 +74,14 @@
             <version>2.1.3.RELEASE</version>
         </dependency>
 
-
-
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>aliyunmaven</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
